@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION FORM</title>
+    <link rel="icon" href="Images/it-logo.png">
+</head>
+<body>
+
+<style>
+    h1{
+        color: #4d01fd;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+   input[type=text] {
+    padding: 5px;
+    border: 2px;
+   }
+
+   select[name=text] {
+    padding: 3px;
+    border: 2px;
+   }
+
+   table{
+    font-family: calibri;
+    font-size: large;
+   }
+
+</style>
+
+<center>
+   
+<img height="150" width="400" src="Images/it-logo.png" alt="">
+
+<h1> <i> STUDENT REGISTRATION FORM </i> </h1>
+
+</center>
+
+<form action="https://nlpsolutions.netlify.app/" style="background-color: #4d01fd; padding: 40px; color: #ffffff;">
+<table>
+  <br>
+  <tr>
+    <td align="center">FIRST NAME</td>
+    <td> <input type="text" placeholder="Enter Your first Name" required>
+   (max 30 characters a-z and A-Z)
+  </td>
+  </tr>
+
+  <tr>
+    <td align="center"> <br>LAST NAME</td>
+    <td> <br> <input type="text" placeholder="Enter Your Last Name" required>
+    (max 30 characters a-z and A-Z)
+  </td>
+  </tr>
+
+  <tr>
+    <td align="center"> <br> &nbsp;  DATE OF BIRTH</td>
+    <td> <br>
+        <select name="text" id ="Day" required>
+            <option value="null"> &nbsp; Day:</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+  
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+  
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+  
+            <option value="31">31</option>
+        </select>
+            <select name="text" required>
+                <option value="null"> &nbsp; Month:</option>
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="Mar">Mar</option>
+                <option value="Apr">Apr</option>
+                <option value="May">May</option>
+                <option value="Jun">Jun</option>
+                <option value="Jul">Jul</option>
+                <option value="Aug">Aug</option>
+                <option value="Sep">Sep</option>
+                <option value="Oct">Oct</option>
+                <option value="Nov">Nov</option>
+                <option value="Dec">Dec</option>   
+            </select>
+            <select name="text" required>
+            <option value="null"> &nbsp; Year:</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td align="center"> <br>EMAIL ID</td>
+        <td> <br> <input type="text" maxlength="30" placeholder="Enter Email address" id="" required></td> 
+    </tr>
+
+    <tr>
+        <td align="center"> <br>MOBILE NO</td>
+        <td> <br> <input type="text" placeholder="Enter Your Mobile number" id="" required>
+        (10 digit number)
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center"> <br>GENDER</td>
+      <td> <br>
+        <label for="Male">Male</label><input type="radio" name="gender" required id="Male">
+        <label for="Female">Female</label><input type="radio" name="gender" required id="Female">
+      </td>
+   </tr>
+
+      <tr>
+        <td align="center"> <br>ADDRESS</td>
+        <td> 
+         <br> <textarea name="" id="" cols="25" rows="5"></textarea>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center"> <br>CITY</td>
+        <td> <br> <input type="text" placeholder="Enter Your City Name" required>
+        (max 30 characters a-z and A-Z)
+      </td>
+      </tr>
+
+      <tr>
+        <td align="center"> <br>PIN CODE</td>
+        <td> <br> <input type="text" placeholder="Enter Your Pin Code" required>
+        (6 digit number)
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center"> <br>STATE</td>
+        <td> <br> <input type="text" placeholder="Enter Your State Name" required>
+        (max 30 characters a-z and A-Z) <br>
+        </td>
+      </tr>
+
+       <tr>
+        <td align="center"> <br>COUNTRY</td> 
+        <td> <br> <input type="text" placeholder="Enter Your Country Name" required></td>
+      </tr>
+
+     <tr>
+      <td align="center"> <br> HOBBIES</td>
+
+<td> <br>
+  Drawing
+  <input type="checkbox" name="Hobbby Drawing" id="Drawing"required>
+  Writing
+  <input type="checkbox" name="Hobby Writing" id="Writing"required>
+  Sketching
+  <input type="checkbox" name="Hobby Sketching" id="Sketching"required>
+  Reading
+  <input type="checkbox" name="Hobby Reading" id="Reading"required>
+
+<br>
+<br>
+
+Other
+<input type="checkbox" name="Hobby Other" id="Other"required>
+<input type="text" placeholder="Enter Your Other Hobby" required>
+
+</td>
+</tr>
+</table>
+
+
+<td>
+<table>
+
+<tr>
+<td align="center"> <br> &nbsp; QUALIFICATION</td
+<td> <br> &nbsp; &nbsp; SI.No.Examination</td> 
+<td> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Board</td> 
+<td> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Percentage</td> 
+<td> <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Year of Passing</td> 
+</tr>
+
+
+<tr>
+  <td></td>
+<td>1.Class X</td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="ClassX_Board" maxlength="30" required ></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="ClassX_Percentage" maxlength="30" required /></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="ClassX_YrOfPassing" maxlength="30" required /></td>
+</tr>
+
+<tr>
+<td></td>
+<td>2.Class XII</td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="ClassXII_Board" maxlength="30" required /></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="ClassXII_Percentage" maxlength="30" required /></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="ClassXII_YrOfPassing" maxlength="30"required /></td>
+</tr>
+ 
+<tr>
+<td></td>
+<td>3.Graduation</td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="Graduation_Board" maxlength="30" required /></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="Graduation_Percentage" maxlength="30" required /></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="Graduation_YrOfPassing" maxlength="30" required /></td>
+</tr>
+ 
+<tr>
+<td></td>
+<td>4.Masters</td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="Masters_Board" maxlength="30" required /></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="Masters_Percentage" maxlength="30" required /></td>
+<td>&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="Masters_YrOfPassing" maxlength="30" required /></td>
+</tr>
+ 
+<tr>
+<td></td>
+<td></td>
+<td align="center">(10 char max)</td>
+<td align="center">(upto 2 decimal)</td>
+</tr>
+</table>
+ 
+
+<table> <br>
+  <td align="center"> &nbsp; &nbsp; COURSES <br>
+   &nbsp; &nbsp; APPLIED FOR</td>
+
+<td>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BCA
+ <label for="BCA"></label> <input type="radio" name="Course bca" required>
+  &nbsp; &nbsp; B.Com 
+  <label for="B.Com"></label><input type="radio" name="Course bca" required>
+  &nbsp; &nbsp; B.Sc 
+ <label for="B.Sc"></label> <input type="radio" name="Course bca" required>
+  &nbsp; &nbsp; B.A
+ <label for="B.A"></label> <input type="radio" name="Course bca" required>
+</td>
+
+
+<tr>
+  <td colspan="2" align="center">
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+  </td>
+  </tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
